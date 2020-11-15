@@ -1,0 +1,40 @@
+{
+  "name": "abc.db",
+  "version": "2.0.0",
+  "description": "A mongo db ORM based on mongoodb that supports importing from quick.db to make your experience with mongodb easier!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxllm/abc.db.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.3"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "simpledb",
+    "mongodb",
+    "mongo db",
+    "keyv",
+    "simple mongo",
+    "database",
+    "quick.db"
+  ],
+  "author": "cxllm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cxllm/abc.db/issues"
+  },
+  "homepage": "https://abcdb.js.org",
+  "devDependencies": {
+    "@types/mongodb": "^3.5.33",
+    "@types/lodash": "^4.14.165"
+  }
+}
